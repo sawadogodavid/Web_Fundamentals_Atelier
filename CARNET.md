@@ -45,15 +45,18 @@ Chemin (path) : /maps
 
 1. Quelle est la différence entre ce que le serveur **envoie** et ce que le navigateur **affiche** ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le serveur envoie du code HTML brut, tandis que le navigateur interprète ce code pour afficher une page web visuelle.
 
 2. À quoi servent les balises `<h1>`, `<p>`, `<ul>` et `<li>` ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ <h1> : C'est un grand titre (Heading 1).
+<p> : C'est un paragraphe de texte.
+<ul> : C'est une liste à puces (Unordered list).
+<li> : C'est un élément (un point) à l'intérieur de cette liste (List item)
 
 3. Pourquoi l'image s'affiche-t-elle alors qu'elle n'est pas sur votre serveur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Parce que le lien (src="...") pointe directement vers une image hébergée sur Internet (sur Wikipédia). C'est le navigateur qui va la chercher tout seul là-bas au moment d'afficher la page.
 
 ---
 
