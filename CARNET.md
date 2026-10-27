@@ -116,15 +116,17 @@ Lesquelles : La page HTML (presentation), la feuille de style (style.css) et le 
 
 1. Dans l'URL `https://www.youtube.com/results?search_query=chat`, quel est le nom du paramètre ? Quelle est sa valeur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Nom du paramètre : search_query
+Valeur : chat
 
 2. Pourquoi le serveur plante-t-il avec `a=bonjour` ? Que faudrait-il faire pour l'éviter ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Pourquoi : Le serveur plante généralement parce qu'il s'attend à un type de données précis (par exemple un nombre entier avec int()) ou à un autre nom de paramètre, et la valeur fournie provoque une erreur (comme une conversion impossible).
+Ce qu'il faut faire : Gérer les erreurs (avec un bloc try...except) ou vérifier si le paramètre existe et a le bon format avant de l'utiliser.
 
 3. Pourquoi est-il dangereux d'afficher **tel quel** ce que l'utilisateur envoie ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Parce que l'utilisateur peut envoyer du code malveillant (comme du JavaScript dans une balise <script>), ce qui expose à des failles de sécurité de type XSS (Cross-Site Scripting) où un attaquant pourrait détourner la page ou voler des données.
 
 ---
 
