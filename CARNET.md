@@ -64,11 +64,11 @@ Chemin (path) : /maps
 
 1. Pourquoi est-ce une bonne idée de séparer le code Python et le HTML ? (Pensez à une équipe avec un développeur et un graphiste.)
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Ça permet de séparer la logique (le code Python géré par le développeur) du design et de la mise en page (le HTML géré par le graphiste), ce qui évite d'avoir un gros fichier illisible et permet à chacun de travailler de son côté plus facilement.
 
 2. Les `{{ prenom }}` sont-ils remplacés par le serveur ou par le navigateur ? Comment l'avez-vous vérifié ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Ils sont remplacés par le serveur (grâce au moteur de template avant l'envoi), et on peut le vérifier en faisant un « Afficher le code source » dans le navigateur, où l'on voit que le prénom en clair a remplacé les accolades.
 
 ---
 
