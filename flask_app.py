@@ -31,6 +31,7 @@ def presentation():
     <h1>David sawadogo</h1>
     <p>Je suis étudiant en <strong>deuxieme année d'informatique</strong>.</p>
     <h2>Ce que j'aime</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="100">
     <ul>
         <li>Les jeux vidéo</li>
         <li>La musique</li>
