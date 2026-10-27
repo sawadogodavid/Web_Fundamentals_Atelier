@@ -205,4 +205,4 @@ Réponse JSON : C'est un format de données brut (sous forme de texte structuré
 
 En quelques phrases, expliquez à un ami ce qui se passe entre le moment où il tape une adresse dans son navigateur et celui où la page s'affiche :
 
-> _Ma réponse :_ 
+> _Ma réponse :_ Quand tu tapes une adresse dans ton navigateur, il envoie une requête HTTP au serveur distant. Le serveur la reçoit, traite la demande (en cherchant les fichiers ou les données), puis renvoie une réponse HTTP contenant le code (comme le HTML et le CSS). Enfin, ton navigateur reçoit tout ça et l'affiche joliment sur ton écran.
