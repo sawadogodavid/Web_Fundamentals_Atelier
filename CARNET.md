@@ -76,15 +76,15 @@ Chemin (path) : /maps
 
 1. Quelle est la différence de rôle entre le HTML et le CSS ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le HTML sert à structurer le contenu de la page (les textes, les titres, les liens), tandis que le CSS sert à la mise en forme et au design (les couleurs, les polices, l'agencement).
 
 2. Pour afficher votre page `/presentation`, combien de fichiers le navigateur doit-il télécharger ? (Vous pourrez le vérifier à l'exercice suivant !)
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Il doit en télécharger 2 : le fichier HTML (presentation.html) et le fichier de style (style.css).
 
 3. Pourquoi faut-il parfois faire **Ctrl + F5** pour voir les changements de CSS ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Pour vider le cache du navigateur et le forcer à télécharger la nouvelle version du fichier CSS au lieu d'utiliser l'ancienne version qu'il avait gardée en mémoire.
 
 ---
 
