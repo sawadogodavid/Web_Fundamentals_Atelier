@@ -151,15 +151,16 @@ Connexion (mot de passe) : La méthode POST, pour éviter que le mot de passe ne
 
 1. Quelle est la différence entre une erreur `4xx` et une erreur `5xx` ? Qui est « fautif » dans chaque cas ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Erreur 4xx : Vient du client (le navigateur a demandé une page qui n'existe pas ou mal formulée). Le « fautif » est le client/l'utilisateur.
+Erreur 5xx : Vient du serveur (le serveur a planté ou a un bug interne). Le « fautif » est le serveur/le code du site.
 
 2. Comment fonctionne une redirection ? Qui fait la deuxième requête : le serveur ou le navigateur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le serveur répond avec un code de redirection et une nouvelle adresse. C'est ensuite le navigateur qui prend le relais et fait automatiquement la deuxième requête vers cette nouvelle URL.
 
 3. Donnez un exemple de situation où un vrai site utilise une redirection.
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Quand on tape une ancienne adresse d'un site ou qu'on tape google.fr, le site redirige automatiquement vers la version sécurisée [https://www.google.fr](https://www.google.fr) (ou lorsqu'on se connecte, on est redirigé vers sa page de profil).
 
 ---
 
