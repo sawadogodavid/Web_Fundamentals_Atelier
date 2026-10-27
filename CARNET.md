@@ -92,19 +92,23 @@ Chemin (path) : /maps
 
 1. Que signifie HTTP ? Qui envoie la **requête** et qui envoie la **réponse** ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ HTTP : HyperText Transfer Protocol.
+Requête : Envoyée par le navigateur (client).
+Réponse : Envoyée par le serveur.
 
 2. Combien de requêtes votre page `/presentation` a-t-elle déclenchées ? Lesquelles ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Nombre : 3 requêtes.
+Lesquelles : La page HTML (presentation), la feuille de style (style.css) et le favicon (favicon.ico).
 
 3. Que signifie le code `200` ? Et le code `404` de la favicon ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ 200 : Succès (OK, la ressource a été trouvée et envoyée).
+404 : Non trouvé (le serveur n'a pas trouvé le fichier favicon.ico).
 
 4. Pourquoi les modifications faites dans l'onglet Éléments ne sont-elles pas visibles par les autres visiteurs ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Parce que ces modifications sont faites uniquement en local sur ton navigateur, sans toucher au fichier stocké sur le serveur distant.
 
 ---
 
