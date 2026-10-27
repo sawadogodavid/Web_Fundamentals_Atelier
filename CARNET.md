@@ -188,15 +188,16 @@ Erreur 5xx : Vient du serveur (le serveur a planté ou a un bug interne). Le « 
 
 1. Quelle est la différence entre une page HTML et une réponse JSON ? À qui chacune est-elle destinée ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Page HTML : Elle contient la structure visuelle et la mise en page d'un site web. Elle est destinée à être affichée par le navigateur pour être lue par un humain.
+Réponse JSON : C'est un format de données brut (sous forme de texte structuré). Elle est destinée à un autre programme ou script (comme une application mobile ou JavaScript) pour être traitée facilement.
 
 2. Dans la page `/horloge`, quel code s'exécute sur le **serveur** et quel code s'exécute dans le **navigateur** ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le code Python (Flask) qui récupère l'heure ou génère la réponse s'exécute sur le serveur. Le code HTML/CSS ou le script qui affiche le résultat s'exécute dans le navigateur.
 
 3. Citez une application de votre téléphone qui, selon vous, utilise une API. Quelles données échange-t-elle ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Exemple (Météo) : L'application météo. Elle envoie une requête API avec les coordonnées GPS de ta position et reçoit en retour des données JSON (température, prévisions, humidité) pour les afficher.
 
 ---
 
